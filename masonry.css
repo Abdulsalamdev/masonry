@@ -1,0 +1,15 @@
+#container {
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: auto;
+    background-color: yellow;
+    padding: 20px;
+}
+.masonry {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
